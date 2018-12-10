@@ -6,7 +6,7 @@
 
 extern Arduboy2Base ab;
 extern SpritesB sprites;
-extern ArduboyTones sound;
+//extern ArduboyTones sound;
 extern uint8_t mainState;
 extern uint8_t flashCounter;
 
