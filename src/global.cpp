@@ -4,7 +4,7 @@
 
 Arduboy2Base ab;
 SpritesB sprites;
-ArduboyTones sound(ab.audio.enabled);
+//ArduboyTones sound(ab.audio.enabled);
 uint8_t mainState;
 uint8_t flashCounter = 0;
 
