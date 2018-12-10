@@ -61,8 +61,7 @@ void Util::drawNumber(int16_t x, int16_t y, uint16_t value, uint8_t align)
   // draw the number
   for (uint8_t i = 0; i < strLength; i++)
   {
-    uint8_t digit = (uint8_t) buf[i];
-    digit -= 48;
+    uint8_t digit = static_cast<uint8_t>('0' - buf[i]);
     if (digit > 9) digit = 0;
     sprites.drawSelfMasked(x + offset + 4 * i, y, font, digit);
   }
