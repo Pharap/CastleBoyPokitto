@@ -2,7 +2,7 @@
 #define GLOBAL_H
 
 #include <Arduboy2.h>
-#include <ArduboyTones.h>
+//#include <ArduboyTones.h>
 
 extern Arduboy2Base ab;
 extern SpritesB sprites;
