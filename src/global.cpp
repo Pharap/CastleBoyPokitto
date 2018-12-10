@@ -50,6 +50,9 @@ void Util::drawNumber(int16_t x, int16_t y, uint16_t value, uint8_t align)
     case ALIGN_RIGHT:
       offset = -(strLength * 4);
       break;
+    default:
+      offset = 0;
+      break;
   }
 
   // draw the frame
