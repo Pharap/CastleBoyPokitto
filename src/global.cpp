@@ -36,7 +36,8 @@ bool Util::collideRect(int16_t x1, int8_t y1, uint8_t width1, uint8_t height1, i
 void Util::drawNumber(int16_t x, int16_t y, uint16_t value, uint8_t align)
 {
   char buf[10];
-  uint8_t strLength = sprintf(buf, "%u", value);
+  constexpr size_t bufSize = (sizeof(buf) / sizeof(buf[0]));
+  uint8_t strLength = snprintf(buf, bufSize, "%u", value);
   int8_t offset;
   switch (align)
   {
