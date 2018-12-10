@@ -3,8 +3,8 @@
 A Castlevania-like game, originally for the [Arduboy](https://arduboy.com/).
 This is a direct port for the [Pokitto](https://www.pokitto.com/).
 
-A game by @jlauener (also known as 'ZappedCow' or 'dir3kt') and 'Increment'.
-Ported by @Pharap.
+A game by [@jlauener](https://github.com/jlauener) (also known as '[ZappedCow](https://zappedcow.itch.io/)' or 'dir3kt') and 'Increment'.  
+Ported by [@Pharap](https://github.com/Pharap).
 
 ## Hacking the game
 
