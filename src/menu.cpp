@@ -23,6 +23,7 @@ int8_t offset;
 #define B_XX 140
 #define B_XXXX 280
 
+/*
 const uint16_t beat_game_finished[] PROGMEM = {
   // 1:1 ----------------------------------
   NOTE_C5,  B_X,
@@ -68,6 +69,7 @@ const uint16_t beat_game_finished[] PROGMEM = {
 
   TONES_REPEAT
 };
+*/
 }
 
 void Menu::showTitle()
