@@ -5,7 +5,7 @@
 #include <ArduboyTones.h>
 
 extern Arduboy2Base ab;
-extern Sprites sprites;
+extern SpritesB sprites;
 extern ArduboyTones sound;
 extern uint8_t mainState;
 extern uint8_t flashCounter;
